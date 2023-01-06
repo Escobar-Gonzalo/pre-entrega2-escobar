@@ -30,10 +30,10 @@
     "kmButton"
     ;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 1fr 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr 1fr;
     justify-content: center;
     background-image: url(../assets/img/banner/banner-home.jpg);
-    background-position: center;
+    background-position: 58%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 657px;
@@ -43,18 +43,54 @@
     grid-area: logo;
     display: flex;
     justify-content:center;
+    align-items: center;
 }
-        
+
+.logo a img{
+    height: 65px;
+    width: 180px;
+    
+}
+
 .navBar{
     grid-area: navBar;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-shadow: 1px 1px 4px black;
+    margin: 4px;
 }
     
 .contactButton{
     grid-area: contactButton;
     display: flex;
     justify-content: center;
+}
+
+.contactButton a{
+    position: relative;    
+    text-decoration: none;
+    width: 80px;
+    height: 20px;  
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #FF7777;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);
 }
     
 .mainUpTitle{
