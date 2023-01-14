@@ -3,6 +3,7 @@
     padding: 0; 
     box-sizing: border-box;}   
     
+
 @media only screen and (min-width: 0px) { 
 
                 /* index.html */
@@ -123,75 +124,104 @@
 
 .headCont2 {   
     display: grid;
-    grid-template-rows: 200px 400px;
+    grid-template-rows: 200px 350px;
     align-items: center;
     background-image: url(../assets/img/banner/banner-about-us.jpg);
     background-position: 58%;
     background-size: cover;
     background-repeat: no-repeat;}
 
-.navBar{
-    display: grid;
-    grid-template-rows: 1fr 40px 30px;
-    justify-items: center;
-    align-items: center;}
-
-.logo {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 10px;}
-
-.logo img{
-    height: 62px;
-    width: 162px;}
-
-.navBar ul{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    padding-left: 0px;}
-
-.navBar li a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    text-shadow: 1px 1px 4px black;}
 
 .headerText2{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto 250px;
     justify-items: center;
     align-items: center;}
 
-.contactButton a { 
-    text-decoration: none;
-    border-radius: 15px;
+    .AuMainTitle{
     text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    background-color: #FF7777;
-    padding: 2px 8px 2px 8px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);} 
-
-.AuMainTitle{
-    text-align: center;
-    font-size: 48px;
+    font-size: 46px;
     color: white;
     font-family: 'Poppins', sans-serif;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.632);}}
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.632);
+    padding-top: 90px;}
 
+.timeLine{
+    display: grid;
+    grid-template-areas: 
+    "date1 date2 date3"
+    "line line line"
+    "text1 text2 text3";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;}
+    
+    .date1{
+        grid-area: date1;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 4px black;}
+    .date2{
+        grid-area: date2;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 4px black;}
+    .date3{
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 4px black;
+        grid-area: date3;}
+
+    .line {
+        grid-area: line;
+        height: 3px;
+        background: rgb(255, 255, 255);
+        margin-top: 4px;
+        margin-bottom: 4px;}
+
+    .text1{
+        grid-area: text1;
+        margin-left: 8px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 4px black;}
+    .text2{
+        grid-area: text2;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 4px black;}
+    .text3{
+        grid-area: text3;
+        text-align: center;
+        margin-right: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 4px black;}}
 
                    /* TABLET   */
 
-
 @media only screen and (min-width: 768px) {
+
+                        /* Index.html */
 
 .wraper01{
     display: grid;
@@ -208,7 +238,7 @@
     background-image: url(../assets/img/banner/banner-home.jpg);
     background-position: 80%;
     background-size: cover;
-    background-repeat: no-repeat;;}
+    background-repeat: no-repeat;}
 
 .navBar{
     display: grid;
@@ -312,7 +342,49 @@
     font-size: 26px;
     background-color: #FF7777;
     padding: 1px 13px 1px 13px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);}}
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);}
+
+                   /* About-Us.html */
+.wraper02{
+    display: grid;
+    width:100%;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 595px 1000px 500px;}
+
+.headCont2 {   
+    grid-template-rows: 100px auto;}
+
+    .AuMainTitle{
+    font-size: 68px;
+    padding-top: 40px;}
+
+.timeLine{
+    display: grid;
+    grid-template-areas: 
+    "date1 date2 date3"
+    "line line line"
+    "text1 text2 text3";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;}
+    
+    .date1{
+        font-size: 16px;}
+    .date2{
+        font-size: 16px;}
+    .date3{
+        font-size: 16px;}
+
+    .line {
+        margin-top: 4px;
+        margin-bottom: 4px;}
+
+    .text1{
+        font-size: 16px;}
+    .text2{
+        font-size: 16px;}
+    .text3{
+        font-size: 16px;}}
 
                     /* DESKTOP   */
 
@@ -333,7 +405,7 @@
     background-image: url(../assets/img/banner/banner-home.jpg);
     background-position: 80%;
     background-size: cover;
-    background-repeat: no-repeat;;}
+    background-repeat: no-repeat;}
 
 .navBar{
     display: grid;
