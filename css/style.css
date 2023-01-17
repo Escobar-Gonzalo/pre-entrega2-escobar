@@ -117,6 +117,59 @@
     padding: 1px 13px 1px 13px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);}
 
+.main01{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;}
+
+.section01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a5ddd3;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;}
+
+.font{
+    color: rgb(90, 90, 90);
+    font-family: 'Poppins', sans-serif;
+    }
+
+.s01UpTitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;}
+
+.s01MainTitle{
+    font-size: 48px;
+    font-weight: 600;}
+
+.s01Text{
+    font-size: 22px;
+    width: 300px;}
+.s02Text{
+    font-size: 18px;
+    width: 300px;}
+
+.kMoreButton{
+    margin-bottom: 20px;
+}
+
+.kMoreButton a{
+    text-decoration: none;
+    width: 105px;
+    height: 30px;  
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #79C0AF;;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);}
 
                    /* About-Us.html */
 
@@ -135,7 +188,6 @@
     background-position: 58%;
     background-size: cover;
     background-repeat: no-repeat;}
-
 
 .headerText2{
     display: grid;
@@ -162,8 +214,7 @@
     grid-template-columns: auto auto auto;}
 
 .timeLine p{
-    margin-bottom: 0rem;
-}
+    margin-bottom: 0rem;}
 
     .date1{
         grid-area: date1;
@@ -270,6 +321,9 @@
     margin-bottom: 12px;
     animation: fadeIn 1.2s;}
 
+.contactButton a{
+    font-size: 16px;}
+
 .headerText1{
     grid-template-rows: 80px 100px 80px 80px;
     margin-bottom: 20px;}
@@ -295,6 +349,27 @@
 
 .hereButton a { 
     font-size: 28px;}
+
+
+.s01UpTitle{
+    font-size: 22px;
+    margin-top: 30px;}
+
+.s01MainTitle{
+    font-size: 58px;}
+
+.s01Text{
+    font-size: 24px;
+    width: 400px;}
+.s02Text{
+    font-size: 22px;
+    width: 380px;}
+
+.kMoreButton{
+    margin-bottom: 20px;}
+
+.kMoreButton a{
+    font-size: 26px;}
 
                    /* About-Us.html */
 .wraper02{
@@ -357,6 +432,9 @@
 .contactButton{
     margin-right: 30px;}
 
+.contactButton a{
+    font-size: 18px;}
+
 .mainUpTitle{
     margin-bottom: 0px;
     padding-top: 50px;
@@ -382,11 +460,31 @@
     width: 105px;
     height: 30px;}
 
+.s01UpTitle{
+    font-size: 28px;}
+    
+.s01MainTitle{
+    font-size: 68px;}
+    
+.s01Text{
+    font-size: 26px;
+    width: 600px;}
+.s02Text{
+    font-size: 24px;
+    width: 580;}
+.kMoreButton{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.kMoreButton a{
+    font-size: 28px;}
+
                     /*About Us*/
 
 .AuMainTitle{
     font-size: 78px;
-    padding-top: 90px;}
+    padding-top: 80px;
+    margin-bottom: 40px;}
 
 .timeLine{
     width: 100%;}
@@ -403,9 +501,15 @@
     margin-bottom: 5px;}
 
 .text1{
-    font-size: 20px;}
+    font-size: 22px;
+    padding-left: 150px;
+    padding-right: 150px;}
 .text2{
-    font-size: 20px;}
+    font-size: 22px;
+    padding-left: 150px;
+    padding-right: 150px;}
 .text3{
-    font-size: 20px;}}
+    font-size: 22px;
+    padding-left: 150px;
+    padding-right: 150px;}}
 
