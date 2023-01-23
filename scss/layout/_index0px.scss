@@ -2,11 +2,11 @@
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 620px 1000px 500px;
+    grid-template-columns: 320px;
+    grid-template-rows: auto auto auto;
 }
 
-.headCont01 {
+.headCont1 {
     display: grid;
     grid-template-rows: 200px 350px;
     align-items: center;
@@ -164,24 +164,37 @@
             display: flex;
             flex-direction: column;
             margin: 30px 10px 30px 10px;
+            color: rgb(90, 90, 90);
             .s02UpTitle{
                 font-weight: 600;
-                margin-bottom: 0rem;}
+                margin-bottom: 0rem;
+                font-size: 24px;
+                font-weight: 600;}
             .s02MainTitle{
-                font-weight: 600;
+                font-weight: 700;
                 font-size: 46px;}
             .s02Text{
-                font-size: 18px;}
+                font-size: 20px;
+                margin-bottom: 0rem;}
             }
         .s02Down{
-            .carousel-inner{
+            margin-bottom: 30px;
+            .carousel-item{
                 .artText{
                     display: flex;
                     flex-direction: column;
                     width: 300px;
                     text-align: left;
                     left: 10px;
-                    text-shadow: 2px 2px 6px rgb(0 0 0 / 63%);
+                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.881);
+                    h5{
+                        font-weight: 600;
+                        font-size: 20px;}
+                    h3{
+                        font-weight: 700;
+                        font-size: 30px;}
+                    p{
+                        font-size: 18px;}
                     .discTrip{
                         text-align: center;
                             a{  
@@ -194,6 +207,7 @@
                                 text-transform: uppercase;
                                 font-family: 'Poppins', sans-serif;
                                 font-size: 20px;
+                                text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
                                 background-color: #FF7777;
                                 padding: 5px 15px 5px 15px;
                                 left: 140px;
