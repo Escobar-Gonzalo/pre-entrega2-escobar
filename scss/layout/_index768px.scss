@@ -1,0 +1,125 @@
+.wraper01{
+    grid-template-rows: 595px auto auto;}
+
+.headCont1 {   
+    grid-template-rows: 100px auto;
+    flex-direction: row;
+    background-position: 80%;
+        .navBar{
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto;
+        .logo{
+            padding-bottom: 5px;
+            margin-bottom: 0px;
+            animation: fadeIn 1.2s;
+                img{
+                    height: 82px;
+                    width: 216px;}
+            }
+        @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity:1;}
+            }
+        ul{
+            margin-bottom: 9px;
+            margin-left: 13px;
+                li{
+                    a{
+                        animation: fadeIn 1.2s;
+                        font-size: 16px;}
+                }
+            }
+        .contactButton{
+            margin-bottom: 12px;
+            animation: fadeIn 1.2s;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+}
+.headerText1{
+    grid-template-rows: 80px 100px 80px 80px;
+    margin-bottom: 20px;
+        .mainUpTitle{
+            font-size: 20px;
+            margin-bottom: 0px;
+            padding-right: 12px;}
+        .mainTitle{
+            font-size: 68px;
+            margin-bottom: 0px;
+            padding-bottom: 20px;}
+        .mainSubTitle{
+            font-size: 26px;
+            margin-top: 50px;
+            padding-bottom: 10px;}
+        .hereButton{
+            margin-bottom: 20px;
+            padding-bottom: 0px;
+                a { 
+                    font-size: 28px;}}    
+}
+.section01{
+    .s01UpTitle{
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .s01MainTitle{
+        font-size: 58px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .s01Text{
+        font-size: 24px;
+        width: 400px;
+    }
+    .s02Text{
+        font-size: 22px;
+        width: 380px;
+    }
+    .kMoreButton{
+        margin-bottom: 20px;
+        margin-top: 30px;
+            a{
+                font-size: 26px;
+            }
+    }
+}
+.section02{
+    grid-template-columns: 60%;
+    justify-content: center;
+        .s02Up{
+            text-align: center;
+            .s02MainTitle{
+                font-size: 58px;
+                margin-bottom: 1.5rem;
+            }
+            .s02Text{
+                font-size:22px;
+            }
+        }
+        .s02Down{
+            margin-bottom: 60px;
+            .carousel-item{
+                .artText{
+                    text-align: center;
+                    left: 30px;
+                    width:400px;
+                    h5{
+                        font-size: 22px;
+                    }
+                    h3{
+                        font-size: 36px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                    .discTrip{
+                        a{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
