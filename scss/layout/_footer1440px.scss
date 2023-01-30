@@ -1,0 +1,56 @@
+.footerCont{
+    .topButton{
+        margin-top: -36px;
+        height: 80px;
+        width: 100px;
+        left: 47%;
+            a{
+                font-size: 24px;
+                p{
+                    padding-top: 6px;
+                }
+            }
+    }
+    .footNav{
+        margin-top: 100px;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        justify-content: space-evenly;
+        ul{
+            font-size: 24px;
+            width: 180px;
+            margin-bottom: 3rem;
+            li{
+                font-size: 20px;
+            }
+        }
+    }
+    .socialIcon{
+        justify-content: space-evenly;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+        li{
+            img{
+                height: 80px;
+                width: 80px;
+            }
+        }
+    }
+    .contactCont{
+        margin-left: 9rem;
+        margin-right: 9rem;
+        margin-bottom: 5rem;
+        li{
+            img{
+                height: 60px;
+                width:60px;
+                padding-right: 12px;
+            }
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+
+}

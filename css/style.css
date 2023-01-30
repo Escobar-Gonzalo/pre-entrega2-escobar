@@ -428,14 +428,15 @@
       margin-left: 80px; }
       .headCont1 .navBar ul li a {
         font-size: 18px; }
-    .headCont1 .navBar .contacButton {
+    .headCont1 .navBar .contactButton {
       margin-right: 30px; }
-      .headCont1 .navBar .contacButton a {
+      .headCont1 .navBar .contactButton a {
         font-size: 18px; }
   .headerText1 .mainUpTitle {
     margin-bottom: 0px;
     padding-top: 50px;
-    padding-right: 400px; }
+    padding-right: 400px;
+    font-size: 22px; }
   .headerText1 .mainTitle {
     font-size: 78px;
     margin-bottom: 0px;
@@ -467,12 +468,19 @@
     margin-bottom: 50px; }
     .section01 .kMoreButton a {
       font-size: 28px; }
-  .section02 .s02Up .s02UpTitle {
-    font-size: 28px; }
-  .section02 .s02Up .s02MainTitle {
-    font-size: 68px; }
-  .section02 .s02Up .s02Text {
-    font-size: 24px; }
+  .section02 .s02Up {
+    margin-bottom: 68px; }
+    .section02 .s02Up .s02UpTitle {
+      font-size: 28px;
+      margin-top: 1rem;
+      margin-bottom: 2rem; }
+    .section02 .s02Up .s02MainTitle {
+      font-size: 68px;
+      margin-bottom: 3rem; }
+    .section02 .s02Up .s02Text {
+      font-size: 24px;
+      margin-left: 10rem;
+      margin-right: 10rem; }
   .section02 .s02Down {
     display: none; }
   .section02 .s03Down {
@@ -482,5 +490,78 @@
     justify-content: space-around;
     column-gap: 1rem;
     margin-bottom: 80px; }
-    .section02 .s03Down .art01 .art01Text {
-      display: flex; } }
+    .section02 .s03Down .art01 {
+      position: relative; }
+      .section02 .s03Down .art01 .art01Text {
+        top: 470px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.881); }
+        .section02 .s03Down .art01 .art01Text h5 {
+          font-weight: 600;
+          font-size: 22px; }
+        .section02 .s03Down .art01 .art01Text h3 {
+          font-weight: 700;
+          font-size: 30px; }
+        .section02 .s03Down .art01 .art01Text p {
+          font-size: 18px; }
+        .section02 .s03Down .art01 .art01Text .discTrip01 {
+          text-align: center; }
+          .section02 .s03Down .art01 .art01Text .discTrip01 a {
+            text-decoration: none;
+            width: 105px;
+            height: 30px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            text-shadow: 2px 2px 3px #FF7777;
+            background-color: #FF7777;
+            padding: 5px 15px 5px 15px;
+            left: 140px;
+            top: 270px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
+  .footerCont .topButton {
+    margin-top: -36px;
+    height: 80px;
+    width: 100px;
+    left: 47%; }
+    .footerCont .topButton a {
+      font-size: 24px; }
+      .footerCont .topButton a p {
+        padding-top: 6px; }
+  .footerCont .footNav {
+    margin-top: 100px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    justify-content: space-evenly; }
+    .footerCont .footNav ul {
+      font-size: 24px;
+      width: 180px;
+      margin-bottom: 3rem; }
+      .footerCont .footNav ul li {
+        font-size: 20px; }
+  .footerCont .socialIcon {
+    justify-content: space-evenly;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem; }
+    .footerCont .socialIcon li img {
+      height: 80px;
+      width: 80px; }
+  .footerCont .contactCont {
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-bottom: 5rem; }
+    .footerCont .contactCont li img {
+      height: 60px;
+      width: 60px;
+      padding-right: 12px; }
+    .footerCont .contactCont li a {
+      font-size: 20px; } }

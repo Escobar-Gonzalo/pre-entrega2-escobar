@@ -20,7 +20,7 @@
                         }
                     }
             }
-            .contacButton{
+            .contactButton{
                 margin-right: 30px;
                     a{
                         font-size: 18px;
@@ -32,7 +32,8 @@
     .mainUpTitle{
         margin-bottom: 0px;
         padding-top: 50px;
-        padding-right: 400px;}
+        padding-right: 400px;
+        font-size: 22px;}
     .mainTitle{
         font-size: 78px;
         margin-bottom: 0px;
@@ -77,14 +78,20 @@
 }
 .section02{
     .s02Up{
+        margin-bottom: 68px;
         .s02UpTitle{
             font-size: 28px;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
         }
         .s02MainTitle{
             font-size: 68px;
+            margin-bottom: 3rem;
         }
         .s02Text{
             font-size:24px;
+            margin-left: 10rem;
+            margin-right: 10rem;
         }
     }
     .s02Down{
@@ -98,11 +105,47 @@
         column-gap: 1rem;
         margin-bottom: 80px;
             .art01{
+                position: relative;
                 .art01Text{
-                    display: flex;
-                    
+                    top: 470px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    position: absolute;
+                    text-align: left;
+                    font-family: 'Poppins', sans-serif;
+                    color: white;
+                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.881);
+                        h5{
+                            font-weight: 600;
+                            font-size: 22px;
+                        }
+                        h3{
+                            font-weight: 700;
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 18px;
+                        }
+                        .discTrip01{
+                            text-align: center;
+                            a{
+                                text-decoration: none;
+                                width: 105px;
+                                height: 30px;  
+                                border-radius: 15px;
+                                text-align: center;
+                                color: white;
+                                text-transform: uppercase;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 20px;
+                                text-shadow: 2px 2px 3px #FF7777;
+                                background-color: #FF7777;
+                                padding: 5px 15px 5px 15px;
+                                left: 140px;
+                                top: 270px;
+                                box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674);}
+                            }
+                        }    
                 }
             }
-            
-    }
 }
