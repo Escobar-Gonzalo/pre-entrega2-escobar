@@ -9,7 +9,7 @@
                     padding-top: 6px;
                 }
             }
-        }
+    }
     .footNav{
         margin-top: 70px;
         ul{
@@ -20,5 +20,29 @@
                 }
             }
         }
+    }
+    .socialIcon{
+        margin-top: 0.4rem;
+        margin-bottom: 2.3rem;
+        li{
+            img{
+                height: 65px;
+                width: 65px;
+            }
+        }
+    }
+    .contactCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 0rem;
+            li{
+                img{
+                    padding-right: 4px;
+                }
+                a{
+                    font-size: 17px;
+                }
+            }
     }
 }

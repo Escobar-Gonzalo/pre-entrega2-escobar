@@ -66,6 +66,12 @@
             padding-left: 0rem;
             margin-top: 0.8rem;
             margin-bottom: 1.8rem;
+                li{
+                    img{
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
             }
         .contactCont{
             list-style: none;
@@ -76,6 +82,8 @@
                     margin-bottom: 0.5rem;
                         img{
                             padding-right: 8px;
+                            width: 34px;
+                            height: 30px;
                         }
                         a{
                             text-decoration: none;

@@ -90,6 +90,9 @@
     justify-content: center;
         .s02Up{
             text-align: center;
+            .s02UpTitle{
+                font-size: 26px;
+            }
             .s02MainTitle{
                 font-size: 58px;
                 margin-bottom: 1.5rem;
@@ -121,5 +124,8 @@
                     }
                 }
             }
+        }
+        .s03Down{
+            display: none;
         }
     }

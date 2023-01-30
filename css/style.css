@@ -201,6 +201,8 @@
             left: 140px;
             top: 270px;
             box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
+    .section02 .s03Down {
+      display: none; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
@@ -263,6 +265,9 @@
       padding-left: 0rem;
       margin-top: 0.8rem;
       margin-bottom: 1.8rem; }
+      .footerCont .socialIcon li img {
+        height: 50px;
+        width: 50px; }
     .footerCont .contactCont {
       list-style: none;
       color: #5a5a5a;
@@ -271,7 +276,9 @@
       .footerCont .contactCont li {
         margin-bottom: 0.5rem; }
         .footerCont .contactCont li img {
-          padding-right: 8px; }
+          padding-right: 8px;
+          width: 34px;
+          height: 30px; }
         .footerCont .contactCont li a {
           text-decoration: none;
           text-transform: none;
@@ -353,6 +360,8 @@
     justify-content: center; }
     .section02 .s02Up {
       text-align: center; }
+      .section02 .s02Up .s02UpTitle {
+        font-size: 26px; }
       .section02 .s02Up .s02MainTitle {
         font-size: 58px;
         margin-bottom: 1.5rem; }
@@ -372,6 +381,8 @@
           font-size: 20px; }
         .section02 .s02Down .carousel-item .artText .discTrip a {
           font-size: 24px; }
+    .section02 .s03Down {
+      display: none; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
@@ -385,4 +396,91 @@
     .footerCont .footNav ul {
       font-size: 20px; }
       .footerCont .footNav ul li a {
-        font-size: 18px; } }
+        font-size: 18px; }
+  .footerCont .socialIcon {
+    margin-top: 0.4rem;
+    margin-bottom: 2.3rem; }
+    .footerCont .socialIcon li img {
+      height: 65px;
+      width: 65px; }
+  .footerCont .contactCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0rem; }
+    .footerCont .contactCont li img {
+      padding-right: 4px; }
+    .footerCont .contactCont li a {
+      font-size: 17px; } }
+
+@media only screen and (min-width: 1440px) {
+  .wraper01 {
+    grid-template-rows: 604px auto auto; }
+  .headCont1 .navBar {
+    grid-template-columns: auto auto 200px;
+    margin-top: 60px; }
+    .headCont1 .navBar .logo {
+      margin-right: 200px; }
+      .headCont1 .navBar .logo img {
+        height: 103px;
+        width: 270px; }
+    .headCont1 .navBar ul {
+      margin-left: 80px; }
+      .headCont1 .navBar ul li a {
+        font-size: 18px; }
+    .headCont1 .navBar .contacButton {
+      margin-right: 30px; }
+      .headCont1 .navBar .contacButton a {
+        font-size: 18px; }
+  .headerText1 .mainUpTitle {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-right: 400px; }
+  .headerText1 .mainTitle {
+    font-size: 78px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px; }
+  .headerText1 .mainSubTitle {
+    font-size: 28px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 500px; }
+  .headerText1 .hereButton {
+    padding-bottom: 50px;
+    padding-left: 500px; }
+    .headerText1 .hereButton a {
+      width: 105px;
+      height: 30px; }
+  .section01 .s01UpTitle {
+    font-size: 28px; }
+  .section01 .s01MainTitle {
+    font-size: 68px; }
+  .section01 .s01Text {
+    font-size: 26px;
+    width: 600px; }
+  .section01 .s02Text {
+    font-size: 24px;
+    width: 500px; }
+  .section01 .kMoreButton {
+    margin-top: 20px;
+    margin-bottom: 50px; }
+    .section01 .kMoreButton a {
+      font-size: 28px; }
+  .section02 .s02Up .s02UpTitle {
+    font-size: 28px; }
+  .section02 .s02Up .s02MainTitle {
+    font-size: 68px; }
+  .section02 .s02Up .s02Text {
+    font-size: 24px; }
+  .section02 .s02Down {
+    display: none; }
+  .section02 .s03Down {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    justify-content: space-around;
+    column-gap: 1rem;
+    margin-bottom: 80px; }
+    .section02 .s03Down .art01 .art01Text {
+      display: flex; } }
