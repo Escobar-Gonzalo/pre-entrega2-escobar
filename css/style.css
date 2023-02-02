@@ -143,7 +143,7 @@
         text-transform: uppercase;
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
-        background-color: #79C0AF;
+        background-color: #6ab6a4;
         padding: 5px 15px 5px 15px;
         box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
   .section02 {
@@ -203,6 +203,163 @@
             box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
     .section02 .s03Down {
       display: none; }
+  .wraper02 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 620px auto auto; }
+  .headCont2 {
+    display: grid;
+    grid-template-rows: 200px 350px;
+    align-items: center;
+    background-image: url(../assets/img/banner/banner-about-us.jpg);
+    background-position: 58%;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .headCont2 .navBar {
+      display: grid;
+      grid-template-rows: 1fr 40px 30px;
+      justify-items: center;
+      align-items: center; }
+      .headCont2 .navBar .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 15px; }
+        .headCont2 .navBar .logo img {
+          height: 62px;
+          width: 162px; }
+      .headCont2 .navBar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        padding-left: 0rem;
+        margin-bottom: 0rem; }
+        .headCont2 .navBar ul li a {
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-family: 'Poppins', sans-serif;
+          font-size: 14px;
+          text-shadow: 1px 1px 4px black; }
+      .headCont2 .navBar .contactButton a {
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        background-color: #FF7777;
+        padding: 2px 8px 2px 8px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
+  .headerText2 {
+    display: grid;
+    grid-template-rows: auto 250px;
+    justify-items: center;
+    align-items: center; }
+    .headerText2 .AuMainTitle {
+      text-align: center;
+      font-weight: 600;
+      font-size: 46px;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.632);
+      padding-top: 90px; }
+    .headerText2 .timeLine {
+      display: grid;
+      grid-template-areas: "date1 date2 date3" "line line line" "text1 text2 text3";
+      grid-template-rows: auto auto auto;
+      grid-template-columns: auto auto auto; }
+      .headerText2 .timeLine .fontColorShadow {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 1px 4px black;
+        font-size: 14px; }
+      .headerText2 .timeLine p {
+        margin-bottom: 0rem; }
+      .headerText2 .timeLine .date1 {
+        grid-area: date1;
+        text-decoration: none;
+        text-align: center; }
+      .headerText2 .timeLine .date2 {
+        grid-area: date2;
+        text-decoration: none;
+        text-align: center; }
+      .headerText2 .timeLine .date3 {
+        grid-area: date3;
+        text-decoration: none;
+        text-align: center; }
+      .headerText2 .timeLine .line {
+        grid-area: line;
+        height: 3px;
+        background: white;
+        margin-top: 4px;
+        margin-bottom: 4px; }
+      .headerText2 .timeLine .text1 {
+        grid-area: text1;
+        margin-left: 8px;
+        text-decoration: none;
+        text-align: center; }
+      .headerText2 .timeLine .text2 {
+        grid-area: text2;
+        text-decoration: none;
+        text-align: center; }
+      .headerText2 .timeLine .text3 {
+        grid-area: text3;
+        text-align: center;
+        margin-right: 8px;
+        text-decoration: none; }
+  .main02 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto; }
+  .section03 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    background-color: #a5ddd3;
+    padding: 4rem 1rem 4rem 1rem; }
+    .section03 .s03Up {
+      text-align: center; }
+      .section03 .s03Up h3 {
+        color: #5a5a5a;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 1.5rem; }
+      .section03 .s03Up p {
+        color: #5a5a5a;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        margin-bottom: 0rem; }
+    .section03 .line2 {
+      height: 3px;
+      width: 80%;
+      background: #5a5a5a;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem; }
+    .section03 .s03Down {
+      text-align: center; }
+      .section03 .s03Down h3 {
+        color: #5a5a5a;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 1.5rem; }
+      .section03 .s03Down ul {
+        list-style: none;
+        padding-left: 0rem; }
+        .section03 .s03Down ul li {
+          color: #5a5a5a;
+          font-family: 'Poppins', sans-serif;
+          font-size: 20px;
+          text-decoration: none;
+          text-align: center; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
@@ -213,7 +370,7 @@
       height: 60px;
       width: 80px;
       position: absolute;
-      background-color: #79C0AF;
+      background-color: #6ab6a4;
       border-radius: 50%;
       left: 39%; }
       .footerCont .topButton a {
@@ -321,7 +478,7 @@
     grid-template-rows: 80px 100px 80px 80px;
     margin-bottom: 20px; }
     .headerText1 .mainUpTitle {
-      font-size: 20px;
+      font-size: 22px;
       margin-bottom: 0px;
       padding-right: 12px; }
     .headerText1 .mainTitle {
@@ -436,7 +593,7 @@
     margin-bottom: 0px;
     padding-top: 50px;
     padding-right: 400px;
-    font-size: 22px; }
+    font-size: 26px; }
   .headerText1 .mainTitle {
     font-size: 78px;
     margin-bottom: 0px;
@@ -561,7 +718,7 @@
     margin-bottom: 5rem; }
     .footerCont .contactCont li img {
       height: 60px;
-      width: 60px;
+      width: 65px;
       padding-right: 12px; }
     .footerCont .contactCont li a {
       font-size: 20px; } }
