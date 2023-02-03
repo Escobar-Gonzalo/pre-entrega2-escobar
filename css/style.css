@@ -382,7 +382,8 @@
         font-size: 20px;
         margin-bottom: 0rem; }
     .section04 .s04Down .carousel-item .artText {
-      color: red; }
+      color: #4400ff;
+      text-transform: uppercase; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
