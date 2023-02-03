@@ -369,21 +369,30 @@
       flex-direction: column;
       margin: 30px 10px 30px 10px;
       color: #5a5a5a;
-      text-align: center; }
-      .section04 .s04Up h5 {
-        font-weight: 600;
-        margin-bottom: 0rem;
-        font-size: 24px; }
+      text-align: left; }
       .section04 .s04Up h3 {
         font-weight: 700;
-        margin-bottom: 0rem;
-        font-size: 48px; }
+        margin-bottom: 1.2rem;
+        font-size: 46px; }
       .section04 .s04Up p {
         font-size: 20px;
         margin-bottom: 0rem; }
-    .section04 .s04Down .carousel-item .artText {
-      color: #4400ff;
-      text-transform: uppercase; }
+    .section04 .s04Down .carousel-item {
+      height: 650px; }
+      .section04 .s04Down .carousel-item .artText {
+        color: #5a5a5a;
+        padding-bottom: 0rem;
+        padding-top: 3rem; }
+        .section04 .s04Down .carousel-item .artText h5 {
+          font-size: 22px;
+          font-weight: 300;
+          margin-bottom: 1rem; }
+        .section04 .s04Down .carousel-item .artText h3 {
+          font-size: 26px;
+          margin-bottom: 1.3rem; }
+        .section04 .s04Down .carousel-item .artText p {
+          font-size: 16px;
+          height: 170px; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
