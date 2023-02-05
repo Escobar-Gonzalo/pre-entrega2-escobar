@@ -1,0 +1,112 @@
+.wraper02{
+    grid-template-rows: 595px auto auto;
+}
+
+.headCont2{
+    grid-template-rows: 100px auto;
+    flex-direction: row;
+        .navBar{
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto;
+            .logo{
+                padding-bottom: 5px;
+                margin-bottom: 0px;
+                animation: fadeIn 1.2s;
+                img{
+                    height: 82px;
+                    width: 216px;
+                }
+            }
+            @keyframes fadeIn {
+                0% {opacity: 0;}
+                100% {opacity:1;}
+            }
+            ul{
+                margin-bottom: 9px;
+                margin-left: 13px;
+                    li{
+                        a{
+                            animation: fadeIn 1.2s;
+                            font-size: 16px;}
+                    }
+            }
+            .contactButton{
+                margin-bottom: 12px;
+                animation: fadeIn 1.2s;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+}
+.headerText2{
+    .AuMainTitle{
+        font-size: 68px;
+        padding-top: 40px;
+    }
+    .timeLine{
+        column-gap: 30px;
+        .date1{
+            font-size: 20px;
+        }
+        .date2{
+            font-size: 20px;
+        }
+        .date3{
+            font-size: 20px;
+        }
+        .line{
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+        .text1{
+            font-size: 20px;
+            margin-left: 1rem;
+        }
+        .text2{
+            font-size: 20px;
+        }
+        .text3{
+            font-size: 20px;
+            margin-right: 1rem;
+        }
+    }
+}
+.section03{
+    .s03Up{
+        width: 350px;
+        h3{
+            font-size: 30px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+    .s03Down{
+        width: 350px;
+        h3{
+            font-size: 30px;
+        }
+        ul{
+            li{
+                font-size: 24px;
+            }
+        }
+    }
+}
+.section04{
+    grid-template-columns: 60%;
+    justify-content: center;
+    .s04Up{
+        text-align: center;
+        h3{
+            font-size: 58px;
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+    .s04Down{
+        margin-bottom: 60px;
+    }
+}

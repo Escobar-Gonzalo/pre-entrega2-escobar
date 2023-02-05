@@ -377,22 +377,20 @@
       .section04 .s04Up p {
         font-size: 20px;
         margin-bottom: 0rem; }
-    .section04 .s04Down .carousel-item {
-      height: 650px; }
-      .section04 .s04Down .carousel-item .artText {
-        color: #5a5a5a;
-        padding-bottom: 0rem;
-        padding-top: 3rem; }
-        .section04 .s04Down .carousel-item .artText h5 {
-          font-size: 22px;
-          font-weight: 300;
-          margin-bottom: 1rem; }
-        .section04 .s04Down .carousel-item .artText h3 {
-          font-size: 26px;
-          margin-bottom: 1.3rem; }
-        .section04 .s04Down .carousel-item .artText p {
-          font-size: 16px;
-          height: 170px; }
+    .section04 .s04Down .carousel-item .artText {
+      color: #5a5a5a;
+      padding-bottom: 0rem;
+      padding-top: 3rem; }
+      .section04 .s04Down .carousel-item .artText h5 {
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 1rem; }
+      .section04 .s04Down .carousel-item .artText h3 {
+        font-size: 26px;
+        margin-bottom: 1.3rem; }
+      .section04 .s04Down .carousel-item .artText p {
+        font-size: 16px;
+        height: 170px; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
@@ -573,6 +571,82 @@
           font-size: 24px; }
     .section02 .s03Down {
       display: none; }
+  .wraper02 {
+    grid-template-rows: 595px auto auto; }
+  .headCont2 {
+    grid-template-rows: 100px auto;
+    flex-direction: row; }
+    .headCont2 .navBar {
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto; }
+      .headCont2 .navBar .logo {
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        animation: fadeIn 1.2s; }
+        .headCont2 .navBar .logo img {
+          height: 82px;
+          width: 216px; }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+      .headCont2 .navBar ul {
+        margin-bottom: 9px;
+        margin-left: 13px; }
+        .headCont2 .navBar ul li a {
+          animation: fadeIn 1.2s;
+          font-size: 16px; }
+      .headCont2 .navBar .contactButton {
+        margin-bottom: 12px;
+        animation: fadeIn 1.2s; }
+        .headCont2 .navBar .contactButton a {
+          font-size: 16px; }
+  .headerText2 .AuMainTitle {
+    font-size: 68px;
+    padding-top: 40px; }
+  .headerText2 .timeLine {
+    column-gap: 30px; }
+    .headerText2 .timeLine .date1 {
+      font-size: 20px; }
+    .headerText2 .timeLine .date2 {
+      font-size: 20px; }
+    .headerText2 .timeLine .date3 {
+      font-size: 20px; }
+    .headerText2 .timeLine .line {
+      margin-top: 4px;
+      margin-bottom: 4px; }
+    .headerText2 .timeLine .text1 {
+      font-size: 20px;
+      margin-left: 1rem; }
+    .headerText2 .timeLine .text2 {
+      font-size: 20px; }
+    .headerText2 .timeLine .text3 {
+      font-size: 20px;
+      margin-right: 1rem; }
+  .section03 .s03Up {
+    width: 350px; }
+    .section03 .s03Up h3 {
+      font-size: 30px; }
+    .section03 .s03Up p {
+      font-size: 24px; }
+  .section03 .s03Down {
+    width: 350px; }
+    .section03 .s03Down h3 {
+      font-size: 30px; }
+    .section03 .s03Down ul li {
+      font-size: 24px; }
+  .section04 {
+    grid-template-columns: 60%;
+    justify-content: center; }
+    .section04 .s04Up {
+      text-align: center; }
+      .section04 .s04Up h3 {
+        font-size: 58px; }
+      .section04 .s04Up p {
+        font-size: 22px; }
+    .section04 .s04Down {
+      margin-bottom: 60px; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
