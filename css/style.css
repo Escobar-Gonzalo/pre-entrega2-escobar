@@ -377,20 +377,27 @@
       .section04 .s04Up p {
         font-size: 20px;
         margin-bottom: 0rem; }
-    .section04 .s04Down .carousel-item .artText {
-      color: #5a5a5a;
-      padding-bottom: 0rem;
-      padding-top: 3rem; }
-      .section04 .s04Down .carousel-item .artText h5 {
-        font-size: 22px;
-        font-weight: 300;
-        margin-bottom: 1rem; }
-      .section04 .s04Down .carousel-item .artText h3 {
-        font-size: 26px;
-        margin-bottom: 1.3rem; }
-      .section04 .s04Down .carousel-item .artText p {
-        font-size: 16px;
-        height: 170px; }
+    .section04 .s04Down .carousel-item {
+      height: 630px; }
+      .section04 .s04Down .carousel-item .artText {
+        color: #5a5a5a;
+        padding-bottom: 0.5rem; }
+        .section04 .s04Down .carousel-item .artText h5 {
+          font-size: 22px;
+          font-weight: 300;
+          margin-bottom: 1rem; }
+        .section04 .s04Down .carousel-item .artText h3 {
+          font-size: 26px;
+          margin-bottom: 1.3rem; }
+        .section04 .s04Down .carousel-item .artText p {
+          font-size: 16px;
+          height: 170px; }
+    .section04 .s04Down .carousel-control-prev {
+      align-items: flex-start;
+      top: 120px; }
+    .section04 .s04Down .carousel-control-next {
+      align-items: flex-start;
+      top: 120px; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
@@ -645,12 +652,25 @@
         font-size: 58px; }
       .section04 .s04Up p {
         font-size: 22px; }
-    .section04 .s04Down {
-      margin-bottom: 60px; }
+    .section04 .s04Down .carousel-item {
+      height: 800px; }
+      .section04 .s04Down .carousel-item .artText {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem; }
+        .section04 .s04Down .carousel-item .artText h5 {
+          font-size: 24px; }
+        .section04 .s04Down .carousel-item .artText h3 {
+          font-size: 30px; }
+        .section04 .s04Down .carousel-item .artText p {
+          font-size: 20px; }
+    .section04 .s04Down .carousel-control-prev {
+      top: 160px; }
+    .section04 .s04Down .carousel-control-next {
+      top: 160px; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
-    left: 43%; }
+    left: 44%; }
     .footerCont .topButton a {
       font-size: 22px; }
       .footerCont .topButton a p {
@@ -791,6 +811,8 @@
             left: 140px;
             top: 270px;
             box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
+  .wraper02 {
+    grid-template-rows: 604px auto auto; }
   .footerCont .topButton {
     margin-top: -36px;
     height: 80px;

@@ -107,6 +107,27 @@
         }
     }
     .s04Down{
-        margin-bottom: 60px;
+        .carousel-item{
+            height: 800px;
+            .artText{
+                padding-top: 1rem;
+                padding-bottom: 1.5rem;
+                h5{
+                    font-size: 24px;
+                }
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+        .carousel-control-prev{
+            top: 160px;
+        }
+        .carousel-control-next{
+            top: 160px;
+        }
     }
 }
