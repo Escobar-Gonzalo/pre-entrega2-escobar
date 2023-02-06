@@ -400,6 +400,66 @@
       top: 120px; }
     .section04 .s04B {
       display: none; }
+  .wraper03 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 595px auto auto; }
+  .headCont3 {
+    display: grid;
+    grid-template-rows: 200px 300px;
+    align-items: center;
+    background-image: url(../assets/img/banner/banner-services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35%; }
+    .headCont3 .navBar {
+      display: grid;
+      grid-template-rows: 1fr 40px 30px;
+      justify-items: center;
+      align-items: center; }
+      .headCont3 .navBar .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 15px; }
+        .headCont3 .navBar .logo img {
+          height: 62px;
+          width: 162px; }
+      .headCont3 .navBar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        padding-left: 0rem;
+        margin-bottom: 0rem; }
+        .headCont3 .navBar ul li a {
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-family: 'Poppins', sans-serif;
+          font-size: 14px;
+          text-shadow: 1px 1px 4px black; }
+      .headCont3 .navBar .contactButton a {
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        background-color: #FF7777;
+        padding: 2px 8px 2px 8px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
+  .headerText3 {
+    display: flex;
+    flex-direction: column; }
+    .headerText3 .seMainTitle {
+      position: relative; }
+    .headerText3 .seMainTitleBis {
+      position: relative; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
