@@ -405,7 +405,7 @@
     width: 100%;
     height: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 595px auto auto; }
+    grid-template-rows: 530px auto auto; }
   .headCont3 {
     display: grid;
     grid-template-rows: 200px 300px;
@@ -457,9 +457,47 @@
     display: flex;
     flex-direction: column; }
     .headerText3 .seMainTitle {
-      position: relative; }
-    .headerText3 .seMainTitleBis {
-      position: relative; }
+      position: relative;
+      bottom: 2rem;
+      font-size: 46px;
+      text-align: center;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.632);
+      font-weight: 600; }
+  .main03 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto; }
+  .section05 {
+    background-color: #a5ddd3;
+    text-align: center; }
+    .section05 p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      color: #5a5a5a;
+      margin: 3rem 1.5rem 1rem 1.5rem; }
+    .section05 ul {
+      list-style: inside;
+      padding-left: 0rem; }
+      .section05 ul li {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 2.4;
+        text-decoration: none;
+        font-weight: 600;
+        color: #5a5a5a; }
+  .section06 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto; }
+    .section06 div {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      text-align: center; }
+      .section06 div div {
+        text-align: center; }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
