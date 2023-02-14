@@ -456,7 +456,16 @@
   .headerText3 {
     display: flex;
     flex-direction: column; }
-    .headerText3 .seMainTitle {
+    .headerText3 .seMainTitle1 {
+      position: relative;
+      bottom: 2rem;
+      font-size: 46px;
+      text-align: center;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.632);
+      font-weight: 600; }
+    .headerText3 .seMainTitle2 {
       position: relative;
       bottom: 2rem;
       font-size: 46px;
@@ -483,21 +492,46 @@
       .section05 ul li {
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
-        line-height: 2.4;
         text-decoration: none;
-        font-weight: 600;
-        color: #5a5a5a; }
+        line-height: 2.4;
+        font-weight: 600; }
+        .section05 ul li a {
+          text-decoration: none;
+          color: #5a5a5a; }
   .section06 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto; }
+    grid-template-rows: auto auto auto;
+    margin-bottom: 3rem; }
     .section06 div {
       display: flex;
       flex-direction: column;
-      margin-top: 2rem;
-      text-align: center; }
-      .section06 div div {
-        text-align: center; }
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      align-items: center;
+      color: #5a5a5a;
+      font-family: 'Poppins', sans-serif; }
+      .section06 div div img {
+        width: 80%; }
+      .section06 div h3 {
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 1rem; }
+      .section06 div p {
+        font-size: 20px;
+        width: 80%; }
+      .section06 div .bookNowButton a {
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        background-color: #FF7777;
+        padding: 4px 10px 4px 10px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.674); }
   .footerCont {
     background-color: #a5ddd3;
     display: grid;
@@ -769,6 +803,38 @@
       top: 160px; }
     .section04 .s04B {
       display: none; }
+  .wraper03 {
+    grid-template-rows: 595px auto auto; }
+  .headCont3 {
+    grid-template-rows: 100px auto;
+    flex-direction: row;
+    background-position: 80%; }
+    .headCont3 .navBar {
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto; }
+      .headCont3 .navBar .logo {
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        animation: fadeIn 1.2s; }
+        .headCont3 .navBar .logo img {
+          height: 82px;
+          width: 216px; }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+      .headCont3 .navBar ul {
+        margin-bottom: 9px;
+        margin-left: 13px; }
+        .headCont3 .navBar ul li a {
+          animation: fadeIn 1.2s;
+          font-size: 16px; }
+      .headCont3 .navBar .contactButton {
+        margin-bottom: 12px;
+        animation: fadeIn 1.2s; }
+        .headCont3 .navBar .contactButton a {
+          font-size: 16px; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
