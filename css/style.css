@@ -494,7 +494,8 @@
         font-size: 24px;
         text-decoration: none;
         line-height: 2.4;
-        font-weight: 600; }
+        font-weight: 600;
+        color: #5a5a5a; }
         .section05 ul li a {
           text-decoration: none;
           color: #5a5a5a; }
@@ -516,7 +517,7 @@
         width: 80%; }
       .section06 div h3 {
         font-weight: 600;
-        font-size: 28px;
+        font-size: 26px;
         margin-bottom: 1rem; }
       .section06 div p {
         font-size: 20px;
@@ -842,8 +843,24 @@
     .headerText3 .seMainTitle2 {
       font-size: 52px;
       left: 15%; }
-  .section05 p {
-    margin: 3rem 5rem 2rem 5rem; }
+  .section05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section05 p {
+      font-size: 22px;
+      width: 45%;
+      margin-bottom: 2.5rem; }
+    .section05 ul {
+      margin-bottom: 4rem; }
+  .section06 div div img {
+    width: 60%; }
+  .section06 div h3 {
+    font-size: 28px;
+    margin-bottom: 2rem; }
+  .section06 div p {
+    font-size: 22px;
+    width: 45%; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
@@ -1088,6 +1105,33 @@
         .section04 .s04B .art01 .art01Text p {
           font-size: 22px;
           width: 300px; }
+  .headCont3 .navBar {
+    grid-template-columns: auto auto 200px;
+    margin-top: 60px; }
+    .headCont3 .navBar .logo {
+      margin-right: 200px; }
+      .headCont3 .navBar .logo img {
+        height: 103px;
+        width: 270px; }
+    .headCont3 .navBar ul {
+      margin-left: 80px; }
+      .headCont3 .navBar ul li a {
+        font-size: 18px; }
+    .headCont3 .navBar .contactButton {
+      margin-right: 30px; }
+      .headCont3 .navBar .contactButton a {
+        font-size: 18px; }
+  .headerText3 .seMainTitle1 {
+    font-size: 58px; }
+  .headerText3 .seMainTitle2 {
+    font-size: 58px; }
+  .section05 {
+    padding-top: 2rem; }
+    .section05 p {
+      font-size: 26px;
+      width: 30%; }
+    .section05 ul li a {
+      font-size: 26px; }
   .footerCont .topButton {
     margin-top: -36px;
     height: 80px;
