@@ -804,11 +804,11 @@
     .section04 .s04B {
       display: none; }
   .wraper03 {
-    grid-template-rows: 595px auto auto; }
+    grid-template-rows: 500px auto auto; }
   .headCont3 {
     grid-template-rows: 100px auto;
     flex-direction: row;
-    background-position: 80%; }
+    background-position: 50%; }
     .headCont3 .navBar {
       grid-template-columns: auto auto auto;
       grid-template-rows: auto; }
@@ -835,6 +835,15 @@
         animation: fadeIn 1.2s; }
         .headCont3 .navBar .contactButton a {
           font-size: 16px; }
+  .headerText3 {
+    margin-top: 1rem; }
+    .headerText3 .seMainTitle1 {
+      font-size: 52px; }
+    .headerText3 .seMainTitle2 {
+      font-size: 52px;
+      left: 15%; }
+  .section05 p {
+    margin: 3rem 5rem 2rem 5rem; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
