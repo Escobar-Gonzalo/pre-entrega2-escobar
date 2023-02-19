@@ -413,7 +413,7 @@
     background-image: url(../assets/img/banner/banner-services.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 35%; }
+    background-position: 63%; }
     .headCont3 .navBar {
       display: grid;
       grid-template-rows: 1fr 40px 30px;
@@ -480,12 +480,20 @@
     grid-template-rows: auto auto; }
   .section05 {
     background-color: #a5ddd3;
-    text-align: center; }
+    text-align: center;
+    padding-top: 3rem; }
     .section05 p {
       font-family: 'Poppins', sans-serif;
       font-size: 20px;
       color: #5a5a5a;
-      margin: 3rem 1.5rem 1rem 1.5rem; }
+      margin-right: 1.5rem;
+      margin-left: 1.5rem; }
+    .section05 .p2 {
+      font-size: 26px;
+      font-weight: 600; }
+    .section05 .p3 {
+      margin-right: 2.3rem;
+      margin-left: 2.3rem; }
     .section05 ul {
       list-style: inside;
       padding-left: 0rem; }
@@ -805,7 +813,7 @@
     .section04 .s04B {
       display: none; }
   .wraper03 {
-    grid-template-rows: 500px auto auto; }
+    grid-template-rows: 450px auto auto; }
   .headCont3 {
     grid-template-rows: 100px auto;
     flex-direction: row;
@@ -837,9 +845,9 @@
         .headCont3 .navBar .contactButton a {
           font-size: 16px; }
   .headerText3 {
-    margin-top: 1rem; }
+    margin-top: 1.5rem; }
     .headerText3 .seMainTitle1 {
-      font-size: 52px; }
+      font-size: 60px; }
     .headerText3 .seMainTitle2 {
       font-size: 52px;
       left: 15%; }
@@ -848,19 +856,28 @@
     flex-direction: column;
     align-items: center; }
     .section05 p {
-      font-size: 22px;
+      font-size: 22px; }
+    .section05 .p1 {
       width: 45%;
-      margin-bottom: 2.5rem; }
+      margin-bottom: 2rem; }
+    .section05 .p2 {
+      font-size: 30px;
+      margin-bottom: 2rem; }
+    .section05 .p3 {
+      width: 40%;
+      margin-bottom: 2rem; }
     .section05 ul {
-      margin-bottom: 4rem; }
+      margin-bottom: 3rem; }
   .section06 div div img {
     width: 60%; }
   .section06 div h3 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 2rem; }
   .section06 div p {
     font-size: 22px;
     width: 45%; }
+  .section06 div .bookNowButton a {
+    font-size: 24px; }
   .footerCont .topButton {
     height: 70px;
     width: 90px;
@@ -1105,6 +1122,8 @@
         .section04 .s04B .art01 .art01Text p {
           font-size: 22px;
           width: 300px; }
+  .wraper03 {
+    grid-template-rows: 570px auto auto; }
   .headCont3 .navBar {
     grid-template-columns: auto auto 200px;
     margin-top: 60px; }
@@ -1121,17 +1140,52 @@
       margin-right: 30px; }
       .headCont3 .navBar .contactButton a {
         font-size: 18px; }
-  .headerText3 .seMainTitle1 {
-    font-size: 58px; }
-  .headerText3 .seMainTitle2 {
-    font-size: 58px; }
-  .section05 {
+  .headerText3 {
     padding-top: 2rem; }
+    .headerText3 .seMainTitle1 {
+      font-size: 78px; }
+    .headerText3 .seMainTitle2 {
+      font-size: 78px; }
+  .section05 {
+    padding-top: 5rem; }
     .section05 p {
-      font-size: 26px;
-      width: 30%; }
-    .section05 ul li a {
-      font-size: 26px; }
+      font-size: 28px; }
+    .section05 .p1 {
+      width: 40%;
+      margin-bottom: 3rem; }
+    .section05 .p2 {
+      font-size: 45px;
+      margin-bottom: 3rem; }
+    .section05 .p3 {
+      width: 50%;
+      margin-bottom: 3rem; }
+    .section05 ul {
+      margin-bottom: 5rem; }
+      .section05 ul li a {
+        font-size: 36px; }
+  .section06 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin-top: 3rem; }
+    .section06 div {
+      display: flex;
+      flex-direction: column;
+      width: 450px;
+      height: 984px; }
+      .section06 div div img {
+        width: 85%; }
+      .section06 div h3 {
+        font-size: 34px;
+        margin-bottom: 3rem; }
+      .section06 div p {
+        font-size: 26px;
+        width: 70%; }
+      .section06 div .bookNowButton {
+        justify-content: flex-end;
+        margin-bottom: 2rem; }
+        .section06 div .bookNowButton a {
+          font-size: 28px; }
   .footerCont .topButton {
     margin-top: -36px;
     height: 80px;
